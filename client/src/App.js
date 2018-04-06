@@ -187,7 +187,7 @@ class App extends Component {
                   title: {
                     text: 'block number'
                   },
-                  categories: [1,2,3,4,5,6,7,8,9,10]//chart.xAxis
+                  categories: chart.xAxis //e.g. [1,2,3,4,5,6,7,8,9,10]
               },
               yAxis: {
                   title: {
@@ -204,7 +204,7 @@ class App extends Component {
               },
               series: [{
                   name: chart.yAxisTitle,
-                  data: [32,44,63,123,150,200,536,800,1023,1214]//chart.yAxis
+                  data: chart.yAxis //e.g. [32,44,63,123,150,200,536,800,1023,1214]
               }]
             }}
           >
