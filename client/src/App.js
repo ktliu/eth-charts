@@ -25,7 +25,9 @@ class App extends Component {
     this.grabHighcharts = this.grabHighcharts.bind(this);
 
   }  
-
+  
+  // Can probably group the three functions below into one
+  // unless graph becomes more complicated
   grabLoginHistoryData() {
 
     var xAxis = [], yAxis = []
